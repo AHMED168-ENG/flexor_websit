@@ -1,0 +1,1749 @@
+body
+{
+    padding:0;
+    margin:0;
+    padding-top:70px;
+}
+/* ========== start navbar ======== */
+.navbar-expand-lg
+{
+    height:70px;
+    width:100%;
+    position: fixed;
+    top:0;
+    background:white;
+    z-index: 5555555
+}
+.navbar-light .navbar-brand
+{
+    font-size:40px;
+    color:#635551;
+    font-family:sans-serif;
+    font-weight:500;
+    letter-spacing:1px
+    
+}
+.navbar-light .navbar-brand:hover{
+    color:#635551
+}
+.navbar-light .navbar-nav .nav-link
+{
+    font-size:16px;
+    font-weight:550;
+    margin: 0 5px
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color:#ff6b3b
+}
+@media(max-width:992px)
+{
+    .navbar-light .navbar-brand
+    {
+        margin-top: -10px
+    }
+   .navbar-light .navbar-toggler
+    {
+        margin-top: -10px
+    }
+}
+
+/* ========== end navbar ======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== start welcom ======== */
+.welcom
+{
+    height:400px;
+    background-image:url('../img/hero-bg.jpg');
+    background-size:cover;
+    background-position:center
+}
+.welcom .back
+{
+    background-color:rgba(0,0,0,0.5);
+    height:100%;
+    
+}
+.welcom .back .wordes
+{
+    padding-top: 100px;
+    position: relative
+}
+.welcom .back .wordes h2
+{
+    font-size: 54px;
+    color:#eee;
+    font-family:serif
+}
+.welcom .back .wordes p
+{
+    color:#fff;
+    font-size:25px;
+    font-weight:450;
+    margin-bottom: 45px
+}
+.welcom .back .wordes i
+{
+    width: 50px;
+    height:50px;
+    border-radius:50%;
+    background:#FF5821;
+    text-align: center;
+    line-height:50px;
+    color:white;
+    position: relative;
+    z-index: 2;
+    
+}
+.welcom .back .wordes a
+{
+    color:white;
+    text-decoration:none;
+    padding:8px 7px;
+    background:#584b48;
+    font-weight:550;
+    display: inline-block;
+    width:140px;
+    position: relative;
+    z-index: 1;
+    text-transform: capitalize;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    text-align: center;
+    transition: all 0.52s ease-in-out;
+    margin-left: -20px
+    
+}
+.welcom .back .wordes a:hover
+{
+    background:#F0521F;
+}
+/* ========== end welcom ======== */
+
+
+
+
+
+
+/* ========== start info ======== */
+.info
+{
+    padding:20px 0 50px;
+    
+}
+.info .row .left
+{
+    padding:25px 30px 25px;
+    background:#FF5821;
+    color:white;
+    margin-top: -90px;
+    border-radius:10px
+}
+.info .row .left h2
+{
+    font-size:40px;
+    font-family: serif;
+    line-height:1.1;
+    font-weight:440;
+    margin-bottom:25px
+    
+}
+.info .row .left p
+{
+    font-style:italic;
+    font-weight:500;
+    font-size:17px;
+    margin-bottom: 25px
+}
+.info .row .left button
+{
+    display:block;
+    margin: auto;
+    padding:6px 22px;
+    border-radius:16px;
+    border:0;
+    coloR:white;
+    background:rgba(255, 255, 255, 0.2);
+    font-weight:550;
+    transition: 0.5s
+}
+.info .row .left button:hover
+{
+    background:white;
+    color:#FF5821;
+    
+}
+.info .row .left button i
+{
+    font-weight: 200;
+    margin-left: 7px
+}
+.info .row .right .row div div
+{
+    padding:45px 15px 35px;
+    background:white;
+    box-shadow:0px 2px 15px rgba(0,0,0,0.1);
+}
+.info .row .right .row div div i
+{
+    font-size:34px;
+    margin-bottom: 15px;
+    color:#FF5821
+}
+.info .row .right .row div div h4
+{
+    font-family: serif;
+    font-weight:550;
+    color:#444444;
+    margin-bottom: 15px;
+    
+}
+.info .row .right .row div div p
+{
+    font-style:italic;
+    font-weight: 500px
+}
+@media(max-width:992px)
+{
+   .info .row .right .row div div
+    {
+        margin-bottom:30px
+    }
+ 
+}
+@media(max-width:790px)
+{
+    .info .row .left
+    {
+        margin-bottom: 30px;
+        margin-top:-60px;
+    }
+}
+/* ========== end info ======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== start counter1 ======== */
+.counter1
+{
+    padding:20px 0 ;
+    text-align: center;
+    background:#FF5821
+}
+.counter1 .row div i , .counter1 .row div span
+{
+    display:block;
+    color:white
+}
+.counter1 .row div i
+{
+    font-size:40px;
+}
+.counter1 .row div span:first-of-type
+{
+    font-weight:600;
+    font-size:35px;
+}
+.counter1 .row div span:last-of-type
+{
+    font-size:20px
+}
+/* ========== end counter1 ======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== start about ======== */
+.about
+{
+    padding:60px 0 40px;
+    background:#FFF9F7;
+    overflow: hidden;
+}
+.about .row .left .child1 
+{
+    background-image:url('../img/about-img.jpg');
+    background-size:cover;
+    height:600px
+}
+.about .row .left .child1 .back
+{
+    background-color:rgba(0,0,0,0.1);
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.about .row .left .child1 .back div
+{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:rgb(255, 88, 33,0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.about .row .left .child1 .back div i
+{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:rgb(255, 88, 33);
+    text-align: center;
+    line-height: 55px;
+    color:white;
+    cursor:pointer
+    
+}
+
+.about .row .right
+{
+    padding:35px 0 0 30px
+}
+.about .row .right h5
+{
+    text-transform: capitalize;
+    color:#7f6d68;
+    font-family:sans-serif
+}
+.about .row .right h3
+{
+    width:90%;
+    color:#554945;
+    
+}
+.about .row .right p
+{
+    font-style: italic;
+    font-size:17px;
+    color:#444444;
+    margin-bottom:45px
+}
+.about .row .right .child2
+{
+    overflow: hidden
+}
+.about .row .right .child2 div:first-child
+{
+    width:15%;
+}
+.about .row .right .child2 div:first-child i
+{
+    width:64px;
+    height:64px;
+    border-radius: 50%;
+    border:2px solid #ffcbba;
+    line-height: 64px;
+    text-align: center;
+    color:#ff5821;
+    font-size:32px;
+    transition:all 0.5s ease-in-out
+}
+.about .row .right .child2 div:last-child
+{
+    width:85%
+}
+.about .row .right .child2:hover div:first-child i
+{
+    background:#FF5821;
+    color:white
+}
+.about .row .right .child2 div:last-child h4
+{
+    transition: 0.5s
+}
+
+.about .row .right .child2 div:last-child h4:hover
+{
+    color:#FF5821;
+    cursor:pointer
+}
+/* ========== end about ======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== start curosal ======== */
+.curosal .carousel-item
+{
+    padding:80px 0;
+    text-align: center
+
+
+}
+.curosal .carousel-item .row div
+{
+    perspective: 400px
+}
+.curosal .carousel-item .row div img
+{
+    width: 50%;
+    height:50px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    
+}
+.carousel-indicators li
+{
+    background-color:#FF5821;
+    width: 13px;
+    height:13px;
+    border-radius: 50%;
+}
+.carousel-indicators li:hover
+{
+    cursor:pointer
+}
+.carousel-indicators 
+{
+    bottom: -8px;
+   
+}
+.curosal .carousel-item .row div img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform:translatez(50px)
+}
+/* ========== end curosal ======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== start services ======== */
+.services
+{
+    padding:70px 0 50px;
+    background:#FFF9F7;
+    overflow: hidden
+}
+.services .row header h2
+{
+    font-size:35px;
+    font-weight:500;
+    font-family:serif;
+    margin-bottom: 20px;
+    color:#635551
+}
+.services .row header p
+{
+    font-size:17px;
+    color:#635551
+}
+.services .row .pairant
+{
+    padding-top:60px;
+}
+.services .row .pairant .child
+{
+    box-shadow:0 2px 15px rgba(0,0,0,0.1);
+    padding:45px 20px 20px;
+    position: relative
+}
+.services .row .pairant .child i
+{
+    font-size:25px;
+    width: 62px;
+    height:62px;
+    border:1px solid #FF5821;
+    border-radius: 50%;
+    background-color:#FF5821;
+    color:white;
+    line-height: 62px;
+    position: absolute;
+    top:-34px;
+    left:calc(50% - 31px);
+    transition: all 0.2s ease-in-out
+    
+}
+.services .row .pairant .child h4
+{
+    color:#635551;
+    font-family:serif;
+    margin-bottom:15px;
+    font-size:23px;
+    transition: 0.5s
+}
+.services .row .pairant .child h4:hover
+{
+    color:#FF5821;
+    cursor:pointer
+}
+.services .row .pairant .child p
+{
+    font-style: italic;
+    font-size:17px;
+    color:#635551
+}
+.services .row .pairant .child:hover i
+{
+    width: 70px;
+    height:70px;
+    border:2px solid #FF5821; 
+    color:#FF5821;
+    line-height: 70px;
+    background: white;
+    left:calc(50% - 36px);
+    top:-38px
+}
+/* ========== end services ======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== start details ======== */
+.details
+{
+    padding:50px 0;
+    overflow: hidden
+}
+.details .row .pairant
+{
+    margin-bottom: 20px
+}
+.details .row .pairant .child
+{
+    padding:25px;
+    display: flex;
+    align-items: flex-end;
+    height: 450px;
+    border-radius: 5px
+}
+.details .row .pairant .child div
+{
+    background:rgba(255, 255, 255, 0.9);
+    padding:20px 30px;
+    border-radius:5px;
+    transition: all 0.3s ease-in-out
+    
+}
+.details .row .pairant .child div h4
+{
+    text-align: center;
+    font-family: sans-serif;
+    color:#473d3a;
+    font-weight: 520;
+    transition: 0.3s
+    
+}
+.details .row .pairant .child div p
+{
+    font-style: italic
+}
+.details .row .pairant .child div a
+{
+    text-transform: capitalize;
+    color:#473d3a;
+    font-weight:500;
+    text-decoration: none;
+    transition: 0.3s
+
+    
+}
+.details .row .pairant .child div a i
+{
+    margin-right:10px;
+    font-size: 12px;
+    font-weight: 300;
+    transition:all 0.3s ease-in-out;
+}
+.details .row .pairant .child div a:hover i
+{
+    margin-right: 20px
+}
+.details .row .pairant:hover .child div
+{
+    background:#FF5821;
+    color: white !important
+}
+.details .row .pairant:hover .child div a,
+.details .row .pairant:hover .child div h4
+{
+    color:white;
+}
+/* ========== end details ======== */
+
+
+
+
+
+
+
+
+
+
+/* =========== start testmonials =======*/
+.testmonials
+{
+    background-image:url('../img/testimonials-bg.jpg');
+    background-size:cover;
+    background-position: center;
+    min-height:450px
+}
+.testmonials .back
+{
+    height:450px;
+    background:rgba(0,0,0,0.5);
+}
+.testmonials .back .carousel-item
+{
+    padding:60px 0 70px;
+    height:450px
+}
+.testmonials .back .carousel-item img
+{
+    width: 110px;
+    height:110px;
+    border-radius:50%;
+    padding:8px;
+    background:rgb(255, 255, 255,0.4);
+}
+.testmonials .back .carousel-item h4
+{
+    font-family:serif;
+    color:white;
+    letter-spacing: 1px;
+    font-size:30px;
+    margin-bottom:3px
+}
+.testmonials .back .carousel-item span
+{
+    font-weight:600;
+    color:white;
+    margin-bottom: 25px;
+    display: block
+}
+.testmonials .back .carousel-item p
+{
+    font-style: italic;
+    color:white;
+    font-size:17px;
+    font-weight:530;
+    width:70%;
+    margin: auto
+}
+ .testmonials .carousel-indicators
+{
+    bottom:20px
+}
+/* =========== end testmonials =======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========== start portoolio =======*/
+.portofolio
+{
+    padding:60px 0;
+    overflow: hidden
+    
+}
+.portofolio .row header h2
+{
+    font-family:serif;
+    font-size:32px;
+    font-weight:500;
+    color:#635551;
+    margin-bottom:20px
+}
+.portofolio .row header p
+{
+    font-style:italic;
+    color:#635551;
+    font-size:17px;
+    margin-bottom:40px
+    
+}
+.portofolio .row header ul li
+{
+    display:inline-block;
+    margin:0 5px;
+    color:#635551;
+    font-weight:600;
+    margin-bottom: 40px;
+    font-size:18px;
+    text-transform:capitalize; 
+    cursor:pointer
+}
+
+
+.portofolio #containermix .curosal
+{
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius:10px
+    
+    
+}
+.portofolio #containermix ul
+{
+    width:500%;
+    position: relative;
+    animation:scrol 10s infinite ease-in-out;
+    animation-play-state: paused
+}
+.portofolio #containermix ul:hover
+{
+    animation-play-state: running
+}
+.portofolio #containermix ul li
+{
+    width:calc(100% / 5);
+    float: left
+}
+.portofolio #containermix ul li .back
+{
+    height:350px;
+    width: 100%;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.portofolio #containermix ul li .back .over
+{
+    text-align:center;
+    background:rgba(255,255,255,0.8);
+    width:100%;
+    padding:15px
+}
+.portofolio #containermix ul li .back .over div:first-child h5
+{
+    color:#635551;
+    text-transform: capitalize;
+    font-family: serif;
+}
+.portofolio #containermix ul li .back .over div:first-child span:nth-child(2)
+{
+    text-align: left;
+    font-weight: 660;
+    text-transform: capitalize;
+    font-family: sans-serif
+}
+.portofolio #containermix ul li .back .over div:first-child span:nth-child(3)
+{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: line-through
+}
+.portofolio #containermix ul li .back .over div:first-child span:nth-child(4)
+{
+    font-size: 17px;
+    font-weight: 500;   
+}
+.portofolio #containermix ul li .back .over div:last-child i
+{
+    margin: 10px 5px;
+    font-size:18px
+}
+
+@keyframes scrol
+{
+    0%,20%
+    {
+        left: 0;
+    }
+    20%,40%
+    {
+        left: -100%;
+    }
+    40%,60%
+    {
+        left: -200%;
+    }
+    60%,80%
+    {
+        left: -300%;
+    }
+    80%,100%
+    {
+        left: -400%;
+    }
+}
+/* =========== end portoolio =======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========== start team =======*/
+.team
+{
+    padding:50px 0;
+    background:#FFF9F7;
+    overflow: hidden
+}
+.team header h2
+{
+    font-size:35px;
+    font-family:serif;
+    color:#635551;
+    margin-bottom: 20px;
+    text-transform: capitalize
+}
+.team header p
+{
+    font-style: italic;
+    font-size:17px;
+    margin-bottom:81px
+}
+.team .row .pairant
+{
+    height:350px;
+    border-radius:8px;
+}
+.team .row .pairant .child1
+{
+    height:75%;
+    background-size: cover;
+     border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden
+}
+.team .row .pairant .child1 div
+{
+    text-align: center;
+    width: 100%;
+    transform: translate(0,50px);
+    opacity: 0;
+    transition: 0.5s
+    
+}
+.team .row .pairant:hover .child1 div
+{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.team .row .pairant .child1 div i
+{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background:#473d3a;
+    line-height: 40px;
+    margin: 0 2px 7px;
+    color:white;
+    cursor: pointer;
+    transition: 0.3s
+}
+.team .row .pairant .child1 div i:hover
+{
+    COLOR:#FF5821
+}
+.team .row .pairant .child2
+{
+    height:25%;
+    background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,0.1);
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    padding: 15px;
+   
+}
+
+.team .row .pairant .child2 h4
+{
+    font-family: serif;
+    color:#473d3a;
+    font-weight: 500
+    
+    
+}
+.team .row .pairant .child2 p
+{
+    font-size:13px;
+    color:#989595
+}
+/* =========== end team =======*/
+
+
+
+
+
+
+
+
+
+
+
+/* =========== start pric =======*/
+.price
+{
+    padding:60px 0;
+    overflow: hidden
+}
+.price .row header h2
+{
+    font-size:35px;
+    font-weight:550;
+    font-family:serif;
+    color:#656262;
+    margin-bottom:20px
+}
+.price .row header p
+{
+    font-style:italic;
+    font-size:17px;
+    margin-bottom:70px
+    
+}
+.price .row   div .pairant
+{
+    box-shadow:2px 2px 15px rgba(0,0,0,0.1);
+    border-radius:7px;
+    overflow: hidden
+}
+.price .row   div .pairant h4
+{
+    padding:20px;
+    background:#F8F8F8;
+    color:#444444;
+    margin-bottom: 30px;
+    font-size:18px
+}
+.price .row   div .pairant ul li
+{
+    margin:9px 0;
+}
+.price .row   div .pairant ul li:nth-child(1) span
+{
+    font-size:40px;
+    font-weight: 600;
+    color:#FF5821;
+    margin-right: 5px
+}
+.price .row   div .pairant ul li:nth-child(1) 
+{
+    color:#bababa;
+    font-weight: 600
+
+}
+.price .row   div .pairant ul li:nth-child(2),
+.price .row   div .pairant ul li:nth-child(3),
+.price .row   div .pairant ul li:nth-child(4) 
+{
+    color:black;
+    font-weight:450
+}
+.price .row   div .pairant ul li:nth-child(5), 
+.price .row   div .pairant ul li:nth-child(6) 
+{
+    color:#bababa;
+    text-decoration: line-through
+}
+.price .row   div .pairant div
+{
+    padding:15px;
+    background:#F8F8F8;
+    margin-top: 40px
+}
+.price .row   div .pairant div button
+{
+    border:0;
+    background:#FF5821;
+    color:white;
+    padding:7px 29px;
+    font-weight:600;
+    border-radius: 4px;
+    transition:0.2s
+    
+}
+.price .row div .sucand h4
+{
+    background:#FF5821;
+    color:white
+}
+.price .row div .sucand ul li:nth-child(5)
+{
+    text-decoration:none;
+    color:black;
+    font-weight: 550
+}
+.price .row div .thered ul li:nth-child(5),
+.price .row div .thered ul li:nth-child(6)
+{
+    text-decoration:none;
+    color:black;
+    font-weight: 550   
+}
+.price .row div .pairant div button:hover
+{
+    background:#FF7E54;
+    
+}
+.price .row div:nth-child(5) div:first-child
+{
+    position: relative
+}
+.price .row div:nth-child(5) div:first-child::before
+{
+    content:"Advanced";
+    padding:4px 40px;
+    color:white;
+    background: #FF5821;
+    position: absolute;
+    top:24px;
+    right:-39px;
+    transform: rotate(45deg);
+    font-size: 14px;
+    letter-spacing: 1px
+}
+/* =========== end pric =======*/
+
+
+
+
+
+/* =========== start faq =======*/
+
+.faq
+{
+    padding:50px 0;
+    background:#FFF9F7;
+    overflow: hidden
+}
+.faq header h2
+{
+    font-size:35px;
+    color:#635551;
+    margin-bottom: 20px
+}
+.faq header p
+{
+    width:70%;
+    margin: auto;
+    margin-bottom: 70px
+}
+.faq .container
+{
+    width:950px
+}
+.faq .container .colapsed .cared
+{
+    margin-bottom:20px
+}
+.faq .container .colapsed .cared .colaps1
+{
+    border:1px solid #ddd;
+    padding:0 15px
+}
+.faq .container .colapsed .cared .colaps1 input
+{
+    display:none
+}
+.faq .container .colapsed .cared .colaps1 label
+{
+    padding:15px 0;
+    font-size:18px;
+    font-weight:590;
+    background:white;
+    margin: 0;
+    font-family:inherit;
+    text-transform: capitalize;
+    color:#888;
+    -wepkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out ;
+    width: 100%
+}
+.faq .container .colapsed .cared .colaps1 label:hover
+{
+    color:#FF5821;
+    cursor: pointer
+}
+.faq .container .colapsed .cared .colaps1 input:checked + label
+{
+    color:#FF5821;
+    
+}
+
+
+.faq .container .colapsed .cared .colaps1 section
+{
+    padding-top:0;
+    margin: 0;
+    font-style:italic;
+    font-size: 17px;
+    height:0;
+    overflow: hidden;
+    -wepkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out
+}
+.faq .container .colapsed .cared .colaps1 label::before
+{
+    content: "\f059";
+    font-family: 'fontawesome';
+    color: #FFB8A1;
+    font-size: 20px;
+    padding: 15px 9px 0 0;
+    
+}
+.faq .container .colapsed .cared .colaps1 label::after
+{
+    content: "\f107";
+    font-family: 'fontawesome';
+    float: right;  
+    font-weight:650;
+}
+.faq .container .colapsed .cared .colaps1 input:checked ~ label::after
+{
+    content: "\f106";
+    font-family: 'fontawesome';
+    float: right;
+    font-weight:700;
+    font-size:20px
+}
+
+.faq .container .colapsed .cared .colaps1 input:checked ~ section
+{
+    height:90px;
+    padding:10px 0
+}
+
+/* =========== end faq =======*/
+
+
+
+
+
+
+
+
+/* =========== start contact =======*/
+.contact
+{
+    padding:60px 0;
+}
+.contact header h2
+{
+    font-family:serif;
+    color:#444444;
+    font-weight:550;
+    margin-bottom: 20px
+}
+.contact header p
+{
+    width:80%;
+    margin: auto;
+    font-style:italic;
+    font-size:17px;
+    margin-bottom: 60px
+}
+.contact .container
+{
+    width:950px
+}
+.contact .row div .pairant
+{
+    overflow: hidden;
+    box-shadow:0 2px 15px rgba(0,0,0,0.1);
+    padding:20px 0
+}
+.contact .row div .pairant div:first-child
+{
+    width: 30%;
+    text-align: center;
+    padding-top:5px
+}
+.contact .row div .pairant div:last-child
+{
+    width:70%;
+    
+}
+.contact .row div .pairant div:first-child i
+{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:2px dotted #ffded4;
+    color:#ff5821;
+    line-height:2;
+    font-size: 22px
+}
+.contact .row div .pairant div:last-child h2
+{
+    font-size:19px;
+    font-family: serif
+}
+.contact .row div .pairant div:last-child p
+{
+    font-style:italic
+}
+.contact .row .form
+{
+    box-shadow:-2px -2px 0px rgba(0,0,0,0.1) , 2px 2px 0px rgba(0,0,0,0.1);
+    margin-top: 70px;
+    padding:20px 20px 40px;
+    position: relative
+}
+.contact .row .form::after
+{
+    content:"";
+    border-top:0px solid black;
+    border-bottom:50px solid transparent;
+    border-right:0px solid red;
+    border-left:50px solid #dadada ;
+    box-shadow: 2px 2px 0px #fff , -2px -2px 0px #dadada;
+    position: absolute;
+    right:0px;
+    bottom: 0px
+}
+.contact .row .form > input,
+.contact .row .form > select
+
+{
+    padding:9px;
+    font-size:17px;
+    display:block;
+    width:100%;
+    border:1px solid #ddd;
+    margin-bottom: 15px
+}
+.contact .row .form select
+{
+    opacity:0.6;
+    position: relative
+    
+}
+.contact .row .form .fill
+{
+    position: relative;
+    width:100%;
+    height:50px;
+    border:1px solid #ddd;
+    line-height:50px;
+}
+.contact .row .form .fill input
+{
+    position: absolute;
+    z-index: 2;
+    width:100%;
+    height:100%;
+    opacity: 0
+}
+.contact .row .form .fill div:last-child
+{
+    position: absolute;
+    z-index:1;
+    width:100%;
+    height: 100%;
+    padding: 0 8px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight:500;
+    opacity:0.6
+}
+.contact .row .form .row .chose h4
+{
+    font-family: serif;
+    color:#444444;
+    margin: 20px 0
+}
+.contact .row .form .row .chose .firest
+{
+    position: relative;
+    padding-left: 20px
+} 
+.contact .row .form .row .chose .firest input
+{
+    display: none;
+}
+.contact .row .form .row .chose .firest label
+{
+    text-transform: capitalize;
+    font-size:17px;
+    font-weight:420;
+    cursor: pointer
+    
+}
+.contact .row .form .row .chose .firest label::before
+{
+    content: "";
+    display:inline-block;
+    width: 13px;
+    height:13px;
+    background:#ccc;
+    position: absolute;
+    left: 0;
+    top:5px;
+    border-radius: 50%
+    
+}
+.contact .row .form .row .chose .firest label::after
+{
+   content:"";
+    display:inline-block;
+    background-color:gray;
+    position: absolute;
+    left: 2px;
+    top:7px;
+    font-size:30px;
+    width: 9px;
+    height:9px;
+    border-radius: 50%;
+    display: none
+
+}
+.contact .row .form .row .chose .firest input:checked ~ label::after
+{
+    display: block;
+    background:white ;
+}
+.contact .row .form .row .chose .firest input:checked ~ label::before
+{
+    background: green
+}
+.contact .row .form .row .countery h4
+{
+    margin:20px 0;
+    color:#444444;
+    text-transform: capitalize;
+    font-size:22px;
+    font-family: serif
+}
+.contact .row .form .row .countery div input
+{
+    display: none;
+}
+.contact .row .form .row .countery div label
+{
+    text-transform: capitalize;
+    font-size:17px;
+    cursor: pointer
+}
+.contact .row .form .row .countery div
+{
+    position: relative;
+    padding:0 0 0 20px
+}
+.contact .row .form .row .countery div label::before
+{
+    content: "";
+    width:13px;
+    height:13px;
+    border-radius: 50%;
+    background:#ccc;
+    position:absolute;
+    left: 0;
+    top:6px
+}
+.contact .row .form .row .countery div label::after
+{
+    content:"";
+    display:inline-block;
+    background-color:gray;
+    position: absolute;
+    left: 2px;
+    top:8px;
+    font-size:30px;
+    width: 9px;
+    height:9px;
+    border-radius: 50%;
+    display: none
+}
+.contact .row .form .row .countery div input:checked + label::after
+{
+    display: block;
+    background: white
+}
+.contact .row .form .row .countery div input:checked + label::before
+{
+    background:green
+}
+
+/* =========== end contact =======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========== start footer =======*/
+.footer
+{
+    padding:50px 0;
+    background:#FFF9F7;
+}
+.footer .container .row div:first-child h4
+{
+    font-family:serif;
+    color:#444444;
+    margin-bottom: 20px;
+    font-size:35px
+}
+.footer .container .row div:first-child p:first-of-type
+{
+    width:70%;
+    font-size:17px;
+    font-style: italic;
+    margin-bottom: 20px
+}
+.footer .container .row div:first-child p:last-of-type
+{
+    font-style: italic;
+}
+.footer .container .row .twons h4
+{
+    font-size:22px;
+    font-family:serif;
+    color:#444444;
+    margin-bottom: 20px
+}
+.footer .container .row .twons a
+{
+    margin:13px 0;
+    display:block;
+    text-decoration: none;
+    color:#656262;
+    text-transform: capitalize;
+    font-weight:500;
+    transition:0.4s
+}
+.footer .container .row .twons a:hover
+{
+    color:#FF5821
+}
+.footer .container .twons a::before
+{
+    content: "\f105";
+    font-family: 'fontawesome';
+    color:#FF5821 ;
+    margin-right: 10px;
+}
+.footer .container .row div:last-child h4
+{
+    font-family: serif;
+    margin-bottom: 20px;
+    color:#444444
+}
+.footer .container .row div:last-child p
+{
+    font-style: italic;
+    margin-bottom: 27px
+}
+.footer .container .row div:last-child input:first-of-type
+{
+    width:100%;
+    padding:9px 130px 9px 8px ;
+    border:1px solid rgba(255,88,33,0.3);
+    border-radius:22px
+}
+.footer .container .row div:last-child input:last-of-type
+{
+    width: 35%;
+    padding:9px;
+    border:1px solid #FF5821;
+    background:#FF5821;
+    color:white;
+    border-radius:22px;
+    font-weight: 550;
+    position: absolute;
+    top:123px;
+    left:calc(100% - 35%)
+}
+/* =========== end footer =======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========== start footer2 =======*/
+.footer2
+{
+    padding:10px 0;
+    background-color:white;
+}
+.footer2 div:first-child p
+{
+    font-style: italic;
+    font-size:17px;
+    margin: 0
+}
+.footer2 div:first-child a
+{
+    color:#FF5821
+}
+.footer2 div:last-child i
+{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #ED3B00;
+    text-align: center;
+    line-height: 35px;
+    color:white;
+    transition: 0.4s;
+    margin: 0 5px
+}
+.footer2 div:last-child i:hover
+{
+    background-color:#FF7E54;
+    cursor: pointer
+}
+
+
+
+.button
+{
+    width:45px;
+    height:45px;
+    border-radius:3px;
+    background:#ff5821;
+    color:white;
+    text-align: center;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+}
+.button i
+{
+    line-height: 45px;
+    text-align: center;
+    font-size:26px;
+    transition: 0.3s
+ 
+}
+.button a
+{
+    color:white;
+
+}
+.button a i:hover{
+    transform: scale(1,1.5)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========== end footer2 =======*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
